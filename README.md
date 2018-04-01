@@ -1,6 +1,6 @@
 # dxalt
 
-**Dxalt is "dx" command line program for termux.**
+**Dxalt is alternative "dx" command line program for termux.** 
 ===============================================
 
 Program ini saya buat karena program official "dx" dari termux tidak berjalan dengan baik di perangkat saya.
