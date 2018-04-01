@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+
+
+mv dxalt ${PREFIX}/bin/dxalt
+mv dxalt.dex ${PREFIX}/share/dex/dxalt.dex
+
