@@ -1,0 +1,13 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+
+unset LD_LIBRARY_PATH LD_PRELOAD
+exec /system/bin/dalvikvm \
+	-Djava.io.tmpdir=/data/data/com.termux/files/usr/tmp \
+	-cp ${HOME}/amsit/scripts/dx/classes.dex \
+	com.android.dx.command.Main "$@"
+
+
+#dalvikvm \
+#	-cp ${HOME}/amsit/scripts/dx/classes.dex \
+#	com.android.dx.command.Main "$@"
