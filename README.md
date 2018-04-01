@@ -6,8 +6,9 @@
 Program ini saya buat karena program official "dx" dari termux tidak berjalan dengan baik di perangkat saya.
 Jika anda mengalangi hal yang sama dengan saya, silahkan gunakan ini sebagia alternatif.
 
-###### Install
-==============
+**Install**
+===========
+
 1. Dengan "**git clone**".
    1. Clone repository ini.
       ```bash
@@ -26,14 +27,14 @@ Jika anda mengalangi hal yang sama dengan saya, silahkan gunakan ini sebagia alt
       ./install
       ```
 2. Install dengan command "**apt get**".
-   2. Jalankan perintah:
+   1. Jalankan perintah:
       ```bash
       apt get ./dexalt_1.0_all.deb
       ```
 
 
-###### Rekomendasi.
-==================
+**Rekomendasi**
+===============
 Rekomendasi agar perintah "dxalt" bisa di panggil dengan "dx".
 Tulis code ini di file **$HOME/.bash_profile** atau file **$HOME/.profile**
 ```bash
